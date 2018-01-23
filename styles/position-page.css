@@ -33,3 +33,38 @@ nav li::after{
 nav a:hover {
 	color: black;
 }
+
+main {
+	padding-top: 100px;
+	min-width: 1000px;
+}
+
+.dotted-box {
+	width: 600px;
+	height: 300px;
+	border: 10px dotted green;
+	position: relative;
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.spacecat, .spacedog{
+	position: absolute;
+	width: 200px;
+}
+
+.spacecat{
+	left: 320px;
+	top: 100px;
+}
+
+.spacedog{
+	right: 320px;
+	bottom: 50px;
+}
+
+html{
+	background: url(../images/outerspace_landscape.jpeg) no-repeat;
+	background-size: cover;
+}
