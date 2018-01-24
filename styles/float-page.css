@@ -10,3 +10,15 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+
+.img1 {
+	float: left;
+	max-height: 40%;
+	max-width: 40%;
+}
+
+.img2 {
+	float: right;
+	max-width: 40%;
+	max-height: 40%;
+}
